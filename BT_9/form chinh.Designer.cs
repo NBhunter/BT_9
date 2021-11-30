@@ -34,6 +34,7 @@ namespace BT_9
             this.mởFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kiểmTraSốHoànHảoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tạoMảngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thoátToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mởFormToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kiểmTraSốHoànHảoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,7 +46,7 @@ namespace BT_9
             this.btntaomang = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
             this.btnexit = new System.Windows.Forms.Button();
-            this.thoátToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -86,6 +87,13 @@ namespace BT_9
             this.tạoMảngToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.tạoMảngToolStripMenuItem.Text = "Tạo Mảng";
             this.tạoMảngToolStripMenuItem.Click += new System.EventHandler(this.tạoMảngToolStripMenuItem_Click);
+            // 
+            // thoátToolStripMenuItem1
+            // 
+            this.thoátToolStripMenuItem1.Name = "thoátToolStripMenuItem1";
+            this.thoátToolStripMenuItem1.Size = new System.Drawing.Size(61, 24);
+            this.thoátToolStripMenuItem1.Text = "Thoát";
+            this.thoátToolStripMenuItem1.Click += new System.EventHandler(this.thoátToolStripMenuItem1_Click);
             // 
             // contextMenuStrip1
             // 
@@ -193,12 +201,14 @@ namespace BT_9
             this.btnexit.UseVisualStyleBackColor = true;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
-            // thoátToolStripMenuItem1
+            // button1
             // 
-            this.thoátToolStripMenuItem1.Name = "thoátToolStripMenuItem1";
-            this.thoátToolStripMenuItem1.Size = new System.Drawing.Size(61, 24);
-            this.thoátToolStripMenuItem1.Text = "Thoát";
-            this.thoátToolStripMenuItem1.Click += new System.EventHandler(this.thoátToolStripMenuItem1_Click);
+            this.button1.Location = new System.Drawing.Point(284, 358);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(248, 43);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -206,6 +216,7 @@ namespace BT_9
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ContextMenuStrip = this.contextMenuStrip1;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btntaomang);
@@ -242,5 +253,6 @@ namespace BT_9
         private System.Windows.Forms.Button btnrefresh;
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem1;
+        private System.Windows.Forms.Button button1;
     }
 }
