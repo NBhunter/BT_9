@@ -46,7 +46,6 @@ namespace BT_9
             this.btntaomang = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
             this.btnexit = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -201,22 +200,12 @@ namespace BT_9
             this.btnexit.UseVisualStyleBackColor = true;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(284, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(248, 43);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ContextMenuStrip = this.contextMenuStrip1;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btntaomang);
@@ -253,6 +242,5 @@ namespace BT_9
         private System.Windows.Forms.Button btnrefresh;
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem1;
-        private System.Windows.Forms.Button button1;
     }
 }
